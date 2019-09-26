@@ -159,7 +159,7 @@ p{
     cursor: default;
   }
 
-li4, li5, li6, li7, li8 {
+ li4, li5, li6, li7, li8 {
     padding-right: 40px;
     margin-top: 100px;
 }
@@ -215,4 +215,139 @@ li4, li5, li6, li7, li8 {
 a{
   text-decoration: none;
   color: #666666;
+}
+
+
+@media screen and (max-width: 980px) {
+ 
+  h1 {
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto; 
+    margin-left: 14.5%;
+    font-size: 20px
+
+  }
+
+  ul{
+    top: 3px;
+    font-size: 80%
+    
+  }
+
+  .container {
+    
+  float: none;
+  width: 55%;
+   padding: 10px;
+   margin-left: 14.5%;
+   
+   
+}
+.box{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    h1 {
+      width: 250px;
+      height: 30px;
+      text-align: center;
+      padding: 10px 0;
+      margin: 0 auto; 
+      margin-left: 2%;
+      font-size: 20px;
+      ;
+  
+    }
+  
+    ul{
+      top: 3px;
+      font-size: 80%;
+      margin-right: 2%
+      
+    }
+  
+    .container {
+      
+    float: none;
+    width: 95%;
+     padding: 10px;
+     margin-left: 2%;
+     margin-right: 2%
+       
+  }
+  .box{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  h1 {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto; 
+    margin-left: 0%;
+    font-size: 30px;
+    ;
+
+  }
+
+  ul {
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    height: 30px;
+    margin-top: 9.5%;
+    text-align: center;
+    margin-right: 0%;
+    padding-left: 50%;
+    
+    right: 0%;
+    bottom: 0%;
+    top: 0%;
+    float: right
+  }
+  li,li2{
+    margin-right: 5%;
+    padding-right: 0px;
+    padding-left: 100px;
+    float: left;
+    border-right-color: none;
+    border-right-style: none;
+    text-decoration: none;
+    
+
+}
+  .container {
+    
+  float: none;
+  width: 95%;
+   padding: 10px;
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-top: 2%
+     
+}
+.box{
+  display: none;
+}
+
+#about-me-image{
+  width: 500px;
+  height: 400px;
+  margin-right: 20px;
+  float: left
+}
+
+
+}
+footer {
+  display: none
+}
 }
